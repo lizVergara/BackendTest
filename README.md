@@ -1,12 +1,11 @@
-
-## Test Mini-Order-Dispatching Laravel
-
-Para ejecutar este backend, siga los siguientes pasos:
-
-- Descargar las dependencias
+Para ejecutar el backend,
+1. Descargar las dependencias
 ```composer install```
-- Servir Api
+2. editen el .env con su host para levantarlo localmente
+3.Servir Api
 ```php artisan serve```
+o ```php artisan serve --host=192.168.1.109php artisan serve --host=192.168.1.109```
+
 
 Para ejecutar la función "Asignar Ordernes Cada Minuto"
 ```php artisan schedule:work```
